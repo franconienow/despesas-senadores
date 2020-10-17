@@ -1,0 +1,25 @@
+table {
+  width: 100vw;
+  table-layout: fixed;
+}
+.mat-column-valor{
+  text-align: right;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 560px) { 
+  .mat-toolbar{
+    font-size: 14px;
+  }
+  .mat-cell {
+    font-size: 12px;
+  }
+}
+@media (max-width: 360px) { 
+  .mat-toolbar{
+    font-size: 12px;
+  }
+}
